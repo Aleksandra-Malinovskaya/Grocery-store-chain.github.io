@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Black.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+.header_fixed {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2% 0;
+}
+.header_fixed p a{
+    font-family: Roboto;
+    font-size: 1.0vw;
+    color: black;
+    text-decoration: none;
+}
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0%;
+}
+.adress .inf{
+    font-family: Roboto;
+    font-size: 0.9vw;
+    color: #898989;
+}
+.adress .name {
+    font-family: Roboto;
+    font-size: 1.2vw;
+}
+.adress {
+    margin: auto 0;
+}
+.phone_number .inf{
+    font-family: Roboto;
+    font-size: 0.9vw;
+    color: #898989;
+    margin: 2% 0;
+}
+.phone{
+    display: flex;
+}
+.phone .number{
+    font-family: Roboto;
+    font-size: 1.1vw;
+    
+}
+.phone_number{
+    margin: auto 0;
+}
+.images {
+    padding: 1% 0%;
+    width: 10%;
+}
+.images img{
+    padding: 0 1%;
+}
+.menu{
+    background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 1%;
+    border-radius: 7px;
+    margin: 2% 0;
+}
+.menu p a{
+    font-family: Roboto;
+    font-size: 1vw;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
