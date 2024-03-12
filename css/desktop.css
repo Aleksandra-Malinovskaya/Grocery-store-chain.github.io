@@ -78,6 +78,9 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+.menu_head{
+    display: none;
+}
 .fruits_bag img{
     width: 100%;
     height: auto;

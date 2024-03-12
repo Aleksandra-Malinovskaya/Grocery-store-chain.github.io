@@ -53,19 +53,35 @@
         width: 27%;
         height: auto;
     }
-    .menu{
+    .menu_head{
         background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
-        display: flex;
-        justify-content: space-between;
         padding: 1.5% ;
         border-radius: 7px;
         margin: 2% 0;
+        cursor: pointer;
     }
+    .menu {
+        display: none;
+    }
+    .menu.show {
+        display: block;
+        background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
+        padding: 1.5% 1%;
+        border-radius: 7px;
+        margin: 2% 0;   
+      }
+      .menu p{
+        text-align: center;
+      }
     .menu p a{
-        font-size: 2vw;
-        text-align: left;
+        font-size: 4vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    .menu_head p {
+        font-size: 4vw;
+        text-align: center;
         color: #FFFFFF;
-        text-decoration: none;
     }
     .fruits_bag img{
         width: 100%;
@@ -168,7 +184,7 @@
     }
     footer li{
         list-style-type: none;
-        margin: 6% 0;
+        margin: 3% 0;
     }
     footer li a{
         text-decoration: none;
@@ -176,7 +192,7 @@
         font-size: 1vw;
     }
     footer .ull{
-        padding: 0 0 4% 0;
+        padding: 0 0 2% 0;
     }
     .zag{
         display: flex;
@@ -184,11 +200,11 @@
     }
     .Vector{
         padding: 3%;
-        width: 6%;
+        width: 4%;
     }
     .zag a{
         color: #55B74C;
-        font-size: 5vw;
+        font-size: 3vw;
     }
     .men, .men1, .men2, .men3, .men4{
         display: none;
@@ -196,7 +212,7 @@
     .men a, .men1 a, .men2 a, .men3 a, .men4 a{
         text-decoration: none;
         color: #898989;
-        font-size: 5vw;
+        font-size: 3vw;
     }
     .systems{
         margin-bottom: 5%;
