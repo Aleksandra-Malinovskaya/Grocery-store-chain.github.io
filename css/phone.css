@@ -1,0 +1,229 @@
+
+@media (min-width: 320px) and (max-width: 959px){
+    body{
+        width: 100%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header_fixed {
+        display: none;
+    }
+    
+    .header_logo{
+        display: flex;
+        justify-content: space-between;
+        margin: 1% 0%;
+    }
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+    .adress .inf{
+        display: none;
+    }
+    .adress .name {
+        display: none;
+    }
+    .adress {
+        display: none;
+    }
+    .phone_number .inf{
+        font-size: 2.5vw;
+        color: #898989;
+        margin: 2% 0;
+    }
+    .phone{
+        display: flex;
+    }
+    .phone .number{
+        font-size: 2.5vw;
+        
+    }
+    .logo{
+        width: 20%;
+    }
+    .images {
+        padding: 1% 0%;
+        width: 20%;
+    }
+    .images img{
+        padding: 0 1%;
+        width: 27%;
+        height: auto;
+    }
+    .menu{
+        background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5% ;
+        border-radius: 7px;
+        margin: 2% 0;
+    }
+    .menu p a{
+        font-size: 2vw;
+        text-align: left;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .fruits_bag img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2%;
+    }
+    .product_phone{
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons {
+        width: 46%;
+        height: auto;
+        padding: 0 1%;
+    }
+    .icons img{
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+    }
+    .icons .green_line{
+        position: relative;
+        bottom: 20%;
+        background:  #55B74CCC;
+        border-radius: 10%;
+    }
+    
+    .green_line p{
+        text-align: center;
+        padding: 9% 0;
+    }
+    .green_line p a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 3vw;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 4%;
+        font-size: 6vw;
+    }
+    .sales_phone{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+    .sale_card{
+        width: 46%;
+        height: auto;
+        padding: 0 1%;
+    }
+    .sale_card img{
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+    }
+    .sale_card h3{
+        padding: 5% 0;
+        font-size: 4vw;
+    }
+    .sale_card p{
+        font-size: 4vw;
+        padding-bottom: 5%;
+    }
+    .sale_card button{
+        width: 100%;
+        height: 15%;
+        background-color:#55B74CCC;
+        border-color: #55B74CCC;
+        border-radius: 7px;
+        color: #FFFFFF;
+        font-size: 4vw;
+    }
+    .four_principles, .order{
+        margin-bottom: 5%;
+    }
+    .principle{
+        display: flex;
+        justify-content: space-between;
+    }
+    .principle .imgg{
+        width: 20%;
+        height: auto;
+    }
+    .principle .inform{
+        width: 78%;
+        height: auto;
+    }
+    .principle h4{
+        padding: 1% 0;
+        font-size: 4vw;
+    }
+    .principle p{
+        padding: 0 0 5% 0;
+        font-size: 3vw;
+    }
+    footer{
+        background: #2B2B2B;
+        padding: 2% 0;
+    }
+    footer li{
+        list-style-type: none;
+        margin: 6% 0;
+    }
+    footer li a{
+        text-decoration: none;
+        color: #898989;
+        font-size: 1vw;
+    }
+    footer .ull{
+        padding: 0 0 4% 0;
+    }
+    .zag{
+        display: flex;
+    justify-content: space-between;
+    }
+    .Vector{
+        padding: 3%;
+        width: 6%;
+    }
+    .zag a{
+        color: #55B74C;
+        font-size: 5vw;
+    }
+    .men, .men1, .men2, .men3, .men4{
+        display: none;
+    }
+    .men a, .men1 a, .men2 a, .men3 a, .men4 a{
+        text-decoration: none;
+        color: #898989;
+        font-size: 5vw;
+    }
+    .systems{
+        margin-bottom: 5%;
+    }
+    .world {
+        width: 90%;
+        height: auto;
+        padding: 3% 5%;
+    }
+    .world img{
+        width: 100%;
+        height: auto;
+        padding: 3% 0;
+    }
+    .social{
+        width: 90%;
+        height: auto;
+        padding: 3% 5%;
+    }
+    .social img{
+        width: 100%;
+        height: auto;
+
+    }
+    footer p{
+        font-size: 4vw;
+        color: #898989;
+        text-align: center;
+    }
+}

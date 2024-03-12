@@ -1,7 +1,7 @@
-@font-face {
-    font-family: Roboto;
-    src: url(./fonts/Roboto-Black.ttf);
-}
+@media (min-width: 960px){
+    body{
+        width: 100%;
+    }
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +17,6 @@
     padding: 2% 0;
 }
 .header_fixed p a{
-    font-family: Roboto;
     font-size: 1.0vw;
     color: black;
     text-decoration: none;
@@ -32,19 +31,16 @@
     height: auto;
 }
 .adress .inf{
-    font-family: Roboto;
     font-size: 0.9vw;
     color: #898989;
 }
 .adress .name {
-    font-family: Roboto;
     font-size: 1.2vw;
 }
 .adress {
     margin: auto 0;
 }
 .phone_number .inf{
-    font-family: Roboto;
     font-size: 0.9vw;
     color: #898989;
     margin: 2% 0;
@@ -53,7 +49,6 @@
     display: flex;
 }
 .phone .number{
-    font-family: Roboto;
     font-size: 1.1vw;
     
 }
@@ -78,7 +73,6 @@
     margin: 2% 0;
 }
 .menu p a{
-    font-family: Roboto;
     font-size: 1vw;
     text-align: left;
     color: #FFFFFF;
@@ -93,8 +87,12 @@
     display: flex;
     justify-content: space-between;
 }
+.product_phone{
+    display: flex;
+    justify-content: space-between;
+}
 .icons {
-    width: 23%;
+    width: 46%;
     height: auto;
     padding: 0 1%;
 }
@@ -115,7 +113,6 @@
     padding: 7.7% 0;
 }
 .green_line p a{
-    font-family: Roboto;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1vw;
@@ -129,8 +126,12 @@ h1{
     justify-content: space-between;
     margin-bottom: 10%;
 }
+.sales_phone{
+    display: flex;
+    justify-content: space-between;
+}
 .sale_card{
-    width: 23%;
+    width: 46%;
     height: auto;
     padding: 0 1%;
 }
@@ -144,7 +145,6 @@ h1{
     font-size: 1.2vw;
 }
 .sale_card p{
-    font-family: Roboto;
     font-size: 1.1vw;
     padding-bottom: 5%;
 }
@@ -154,7 +154,6 @@ h1{
     background-color:#55B74CCC;
     border-color: #55B74CCC;
     border-radius: 7px;
-    font-family: Roboto;
     color: #FFFFFF;
     font-size: 1vw;
 }
@@ -185,6 +184,9 @@ footer{
     background: #2B2B2B;
     padding: 2% 0;
 }
+.Vector{
+    display: none;
+}
 footer li{
     list-style-type: none;
     margin: 6% 0;
@@ -192,7 +194,6 @@ footer li{
 footer li a{
     text-decoration: none;
     color: #898989;
-    font-family: Roboto;
     font-size: 1vw;
 }
 footer .ull{
@@ -226,8 +227,8 @@ footer .ull{
     height: auto;
 }
 footer p{
-    font-family: Roboto;
     font-size: 0.9vw;
     color: #898989;
     text-align: center;
+}
 }
