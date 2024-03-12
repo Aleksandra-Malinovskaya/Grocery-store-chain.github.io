@@ -1,11 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    const menuHead = document.querySelector('.menu_head');
-const menu = document.querySelector('.menu');
-
-menuHead.addEventListener('click', function() {
-  menu.classList.toggle('show');
-});
     let vector = document.getElementsByClassName('Vector');
     let menu0 = document.getElementsByClassName('men1');
     let isListVisible = false;
@@ -82,4 +76,10 @@ menuHead.addEventListener('click', function() {
         isListVisible4 = true;
         }
     });
+    const menuHead = document.querySelector('.menu_head');
+const menu = document.querySelector('.menu');
+
+menuHead.addEventListener('click', function() {
+  menu.classList.toggle('show');
+});
 });

@@ -71,6 +71,19 @@
     padding: 1.5% 1%;
     border-radius: 7px;
     margin: 2% 0;
+}.menu_head1 {
+    background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
+    padding: 1.5% 10%;
+    border-radius: 7px;
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_head1 p, .menu_head1 a{
+    font-size: 1vw;
+color: #FFFFFF;
+text-decoration: none;
+text-align: center;
 }
 .menu p a{
     font-size: 1vw;
