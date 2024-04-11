@@ -11,3 +11,4 @@ for(let key of img2){
 }
 name.textContent = new_name;
 });
+
