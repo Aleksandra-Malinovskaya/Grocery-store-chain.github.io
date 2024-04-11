@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
         let name = "Бакалея";
         localStorage.setItem("imagePath", imagePath);
         localStorage.setItem("name", name);
-        window.location.href = "./card.html";
-        document.location='./card.html'
+        window.location.href = "card.html";
+        document.location='card.html'
     });
     }
     });
